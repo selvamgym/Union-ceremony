@@ -62,7 +62,7 @@ sudo docker run hello-world
 
 a - In Browser Signin with GIthub - https://ceremony.union.build/#
 
-b - Choose "Linux" and proceed
+b - Choose "Linux" and proceed with required details
 
 c - Copy command in site and paste in to ubuntu panel 
 
