@@ -1,10 +1,8 @@
-# Install Linux Ubuntu on Windows using WSL
+## Step 1 Make sure Enable Virtualzation in PC if not enable in BIOS
 
-> Certain tasks, such as `Contribute Ceremony` or `Contract Deployments`, sometimes don't require a cloud server (VPS). Instead, installing a Linux distribution like Ubuntu on Windows can be sufficient
->
-> In this Guide, I'll tell you how to Install Linux (Ubuntu distribution) on Windows using WSL
 
-## Step 1: Enable WSL
+## Step 2: Install WSL on Windows
+
 
 1. Opening Windows Powershell Terminal
 ![Screenshot_357](https://github.com/user-attachments/assets/42e29c7f-9021-433c-87c4-2f76189b1322)
@@ -18,25 +16,10 @@ wsl --install
   
 After the installation completes, you may need to restart your computer
 
-## Step 2: Install Ubuntu
+## Step 3: Install Ubuntu on Microsoft Store 
 
-1. Open Microsoft Store:
 
-After restarting, open the Microsoft Store from the Start menu.
-
-2. Search for Ubuntu:
-
-In the Store, type "Ubuntu" in the search bar. You’ll see various versions like Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, etc
-
-3. Select and Install:
-
-Click on the version you want to install, then click the Get or Install button
-
-## Step 3: Set Up Ubuntu
-1. Launch Ubuntu:
-
-* Once installed, you can launch it directly from the Microsoft Store or by searching for "Ubuntu" in the Start menu
-* The first time you launch Ubuntu, it will take a moment to set up. After that, you will be prompted to create a new `user` account and password
+## Step 4: Set Up Ubuntu
 
 ### Step 4: Install and Update Packages (aka Drivers)
 1. Update and Upgrade default Packages
