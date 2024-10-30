@@ -61,8 +61,11 @@ sudo docker run hello-world
 ### Step 4: Set up the Ceremony
 
 a - In Browser Signin with GIthub - https://ceremony.union.build/#
+
 b - Choose "Linux" and proceed
+
 c - Copy command in site and paste in to ubuntu panel 
+
 
 Need an Address in the next tab
 Add UNION TESTNET --- https://chains.keplr.app
