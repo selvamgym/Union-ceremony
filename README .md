@@ -66,10 +66,14 @@ b - Choose "Linux" and proceed
 
 c - Copy command in site and paste in to ubuntu panel 
 
+d - Need an Address in the next tab
 
-Need an Address in the next tab
-Add UNION TESTNET --- https://chains.keplr.app
-     Connect Keplr Wallet
-     Add Union Network and copy Union address
-     Paste in ceremony tab
+e - Add UNION TESTNET --- https://chains.keplr.app
 
+f - Connect Keplr Wallet
+
+g - Add Union Network and copy Union address
+
+h - Paste in ceremony tab
+
+### Now your setup complete, Now do not close the browser tab & ceremony tab until your queue completed...
