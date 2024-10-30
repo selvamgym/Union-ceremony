@@ -51,47 +51,9 @@ sudo apt-get update
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-***Optional: To install more packages you can check my recent [Linux guide](https://github.com/0xmoei/Linux_Node_Guide/blob/main/linux-config.md)***
+Run hello-world to verify installation
 
-#
-
-## Optional: Change user
-There are 2 ways to login to ubuntu: 1. You are `root` (administrator with full permissions), or 2. you are an specific `user` with specific permissions
-
-You see by entering `whoami`, I am logged in as user:mirana
-
-![image](https://github.com/user-attachments/assets/f91fd950-9752-430e-90e1-a7759121d928)
-
-
-If you want to login with root (full permissions):
 ```
-sudo su
+sudo docker run hello-world
+
 ```
-![image](https://github.com/user-attachments/assets/2fc310f7-c507-41ac-b116-69ca7d3aa677)
-
-
-* Now you see I am as `root` user, but in `mirana` user **main** directory
-* I need to type `cd` to move to the **main** directory of `root`
-
-***To login to a specific user again, Enter this command:*** `su - username`
-
-#
-
-## Access Ubuntu directories in Windows explorer
-To go to your Ubuntu directory using Windows explorer, Enter this in Windows Explorer Addressbar
-```
-\\wsl$
-```
-
-* `home`: main directory of your specific user
-* `root`: main directory of your `root` user
-![image](https://github.com/user-attachments/assets/87f1fef0-ec1d-4de5-a40e-89a990600c4e)
-
-
-***If you don't have access to root directory,  Enter this command in terminal*** `sudo chmod 755 /root`
-
-
-
-
-
-
