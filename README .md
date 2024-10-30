@@ -19,43 +19,37 @@ After the installation completes, you may need to restart your computer
 ## Step 3: Install Ubuntu on Microsoft Store 
 
 
-## Step 4: Set Up Ubuntu
-
-### Step 4: Install and Update Packages (aka Drivers)
-1. Update and Upgrade default Packages
+## Step 4: Open Ubuntu & Run the script
 ```
-sudo apt update
-
-sudo apt upgrade
+sudo apt update && sudo apt upgrade
 ```
-
-2. Install more important packages
 ```
-sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
+sudo apt install curl
+```
+```
+sudo apt install build-essential
 ```
 
-3. Install Docker
-```docker
-sudo apt update -y && sudo apt upgrade -y
-for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
+### Step 4: Set up the Docker
 
+```
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
 sudo install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 sudo chmod a+r /etc/apt/keyrings/docker.gpg
+```
 
+```
 echo \
-  "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-  "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-
-sudo apt update -y && sudo apt upgrade -y
-
+sudo apt-get update
+```
+ Install Docker dependencies
+```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-
-# Docker version
-docker --version
 ```
 ***Optional: To install more packages you can check my recent [Linux guide](https://github.com/0xmoei/Linux_Node_Guide/blob/main/linux-config.md)***
 
