@@ -1,7 +1,7 @@
-## Step 1 Make sure Enable Virtualzation in PC if not enable in BIOS
+### Step 1: Make sure Enable Virtualzation in PC if not enable in BIOS
 
 
-## Step 2: Install WSL on Windows
+### Step 2: Install WSL on Windows
 
 
 1. Opening Windows Powershell Terminal
@@ -16,10 +16,10 @@ wsl --install
   
 After the installation completes, you may need to restart your computer
 
-## Step 3: Install Ubuntu on Microsoft Store 
+### Step 3: Install Ubuntu on Microsoft Store 
 
 
-## Step 4: Open Ubuntu & Run the script
+### Step 4: Open Ubuntu & Run the script
 ```
 sudo apt update && sudo apt upgrade
 ```
