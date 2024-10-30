@@ -30,7 +30,7 @@ sudo apt install curl
 sudo apt install build-essential
 ```
 
-### Step 4: Set up the Docker
+### Step 5: Set up the Docker
 
 ```
 sudo apt-get update
@@ -58,7 +58,7 @@ sudo docker run hello-world
 
 ```
 
-### Step 4: Set up the Ceremony
+### Step 6: Set up the Ceremony
 
 a - In Browser Signin with GIthub - https://ceremony.union.build/#
 
